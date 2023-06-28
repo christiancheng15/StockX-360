@@ -14,3 +14,6 @@
 4. requests==2.31.0
 
 ## Example Output:
+1. [Air Jordan 1 Retro High OG Chicago Reimagined Lost and Found](https://stockx.com/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found)
+![Air Jordan 1 Retro High OG Chicago Reimagined Lost and Found GIF](examples/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found.gif)
+2. 

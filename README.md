@@ -22,4 +22,4 @@
 
     ![Nike SB Dunk Low Ben & Jerry's Chunky Dunky GIF](examples/nike-sb-dunk-low-ben-jerrys-chunky-dunky.gif)
 
-## Like this project? Follow me [christiancheng15][(https://github.com/christiancheng15/)
+## Like this project? Follow me [christiancheng15](https://github.com/christiancheng15/)

@@ -16,8 +16,8 @@
 ## Example Output:
 1. [Air Jordan 1 Retro High OG Chicago Reimagined Lost and Found](https://stockx.com/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found)
 
->![Air Jordan 1 Retro High OG Chicago Reimagined Lost and Found GIF](examples/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found.gif)
+> ![Air Jordan 1 Retro High OG Chicago Reimagined Lost and Found GIF](examples/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found.gif)
 
 2. [Nike SB Dunk Low Ben & Jerry's Chunky Dunky](https://stockx.com/nike-sb-dunk-low-ben-jerrys-chunky-dunky)
 
->![Nike SB Dunk Low Ben & Jerry's Chunky Dunky GIF](examples/nike-sb-dunk-low-ben-jerrys-chunky-dunky.gif)
+> ![Nike SB Dunk Low Ben & Jerry's Chunky Dunky GIF](examples/nike-sb-dunk-low-ben-jerrys-chunky-dunky.gif)

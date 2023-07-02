@@ -20,12 +20,12 @@ def menu():
     print("2. Press ENTER to generate GIF")
     print("Note: Not all products have 360° images. It may take upwards of 30 seconds. Enter Q/q to quit.\n")
 
-
 def create_gif():
     # User enter StockX link e.g. https://stockx.com/nike-dunk-low-retro-white-black-2021
     while True:
         url = input("StockX Link: ")
 
+        # Enter Q/q to quit
         if url.lower() == "q":
             quit()
 
@@ -33,7 +33,7 @@ def create_gif():
         # 1. Validate regex
         pattern = r"^https:\/\/stockx\.com\/[a-zA-Z0-9-]+$"
         if re.match(pattern, url):
-            #Validate url exists
+            # 2. Validate url exists
             response = requests.get(url)
             if response.status_code == 200:
                 break

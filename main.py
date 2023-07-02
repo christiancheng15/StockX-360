@@ -36,7 +36,15 @@ while True:
 soup = BeautifulSoup(response.content, "html.parser")
 next_data = soup.find("script", id="__NEXT_DATA__", type="application/json").text
 next_data_json = json.loads(next_data)
-all_360_images = next_data_json["props"]["pageProps"]["req"]["appContext"]["states"]["query"]["value"]["queries"][4]["state"]["data"]["product"]["media"]["all360Images"]
+queries = next_data_json["props"]["pageProps"]["req"]["appContext"]["states"]["query"]["value"]["queries"]
+
+# 2/7 - Add try/except to parse all_360_images as each product has different "queries" length
+for num in range(0,len(queries)):
+    try:
+        all_360_images = queries[num]["state"]["data"]["product"]["media"]["all360Images"]
+    except:
+        pass
+
 images = [imageio.imread(requests.get(url).content) for url in all_360_images]
 
 # Format file name

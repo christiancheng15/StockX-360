@@ -12,9 +12,6 @@ from art import *
 import re
 import os
 
-def clear_console():
-  os.system('cls')
-
 def menu():
     # Menu
     tprint("StockX360")

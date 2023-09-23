@@ -12,6 +12,11 @@ from art import *
 import re
 import os
 
+# SETTINGS
+CLOCKWISE = True
+PERFECT_LOOP = True
+DURATION = 100
+
 def menu():
     # Menu
     tprint("StockX360")
@@ -52,14 +57,21 @@ def create_gif():
         except:
             pass
 
-    images = [imageio.imread(requests.get(url).content) for url in all_360_images]
+    if CLOCKWISE:
+        all_360_images = all_360_images[::-1]
+
+    cleaned_urls = [re.sub(r'\?.*$', '', url) for url in all_360_images]
+
+    images = [imageio.imread(requests.get(url).content) for url in cleaned_urls]
+
+    gif_time = DURATION * len(cleaned_urls) / 1000
 
     # Format file name
-    file_name = url.replace("https://stockx.com/", "") + ".gif"
+    file_name = url.replace("https://stockx.com/", "") + "_" + str(gif_time) + "s.gif"
 
     # Check if images contains images. Yes - Create GIF / No - Exit
     if images:
-        imageio.mimsave(file_name, images, duration=0, loop=0)
+        imageio.mimsave(file_name, images, duration=DURATION, loop=0)
         print(f"{file_name} created successfully.")
     else:
         print("No images were successfully loaded to create the GIF.")

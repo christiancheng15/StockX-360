@@ -44,7 +44,7 @@ The generated GIFs will be saved in the output folder within the project directo
 python main.py --url https://stockx.com/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found --clockwise 1
 ```
 This will generate a 360° GIF of the Air Jordan 1 Retro High OG Chicago Reimagined Lost and Found with a clockwise rotation as shown below:
-![Air Jordan 1 Retro High OG Chicago Reimagined Lost and Found GIF](examples/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found.gif)
+![Air Jordan 1 Retro High OG Chicago Reimagined Lost and Found GIF](output/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found.gif)
 
 ## Troubleshooting
 - Scraping Issues: If the script fails to scrape images, ensure that the URL is correct and that StockX's website structure has not changed.

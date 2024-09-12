@@ -1,6 +1,8 @@
 # StockX 360° GIF Generator
 
-### Generate 360° GIF images from StockX and showcase product from all angles. Enhance online presentations and engage your audience with dynamic visual content. This project was initially created as a concept to generate dynamic Instagram posts. The aim was to allow customers to easily view product designs from all angles, addressing one of the biggest requests. 
+### Generate 360° GIF images from StockX and showcase product from all angles. Enhance online presentations and engage your audience with dynamic visual content. This project was initially created as a concept to generate dynamic Instagram posts. The aim was to allow customers to easily view product designs from all angles, addressing one of the biggest requests.
+
+⚠️ This script requires an update. Due to recent changes in the website's API, the script may no longer work as expected.
 
 ## Features
 - 360° GIFs: Automatically convert images into smooth, looping GIFs that showcase products from all angles.
